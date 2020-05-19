@@ -50,6 +50,31 @@ body {
   opacity: 0.6;
   letter-spacing: 0.1px;
 }
+.signmenu-password {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+.signmenu-password .signmenu__passwordtitle {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.6;
+  letter-spacing: 0.1px;
+}
+.signmenu-forgotpassword {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  text-align: right;
+}
+.signmenu-forgotpassword .signmenu__forgotpasswordtitle {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.6;
+  letter-spacing: 0.1px;
+}
 
 .user {
   width: 320px;
