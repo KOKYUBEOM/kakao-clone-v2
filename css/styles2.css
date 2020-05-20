@@ -40,25 +40,27 @@ body {
 
 .signmenu-email {
   background-color: white;
-  border-radius: 5px;
-  margin-bottom: 50px;
+  border-radius: 10in;
+  margin-bottom: 20px;
   text-align: left;
+  height: 30px;
 }
 .signmenu-email .signmenu__emailtitle {
   margin: 0;
-  font-size: 12px;
+  font-size: 15px;
   opacity: 0.6;
   letter-spacing: 0.1px;
 }
 .signmenu-password {
   background-color: white;
-  border-radius: 5px;
-  margin-bottom: 50px;
+  border-radius: 10in;
+  margin-bottom: 20px;
   text-align: left;
+  height: 30px;
 }
 .signmenu-password .signmenu__passwordtitle {
   margin: 0;
-  font-size: 12px;
+  font-size: 15px;
   opacity: 0.6;
   letter-spacing: 0.1px;
 }
