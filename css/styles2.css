@@ -4,15 +4,15 @@ h2,
 h3 {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 20px;
 }
 header {
   width: 340px;
-  height: 800px;
+  height: 600px;
   padding: 50px;
   font-family: sans-serif;
   background-color: gainsboro;
-  border-radius: 10px;
+  border-radius: 0.5in;
   font-family: "Open Sans";
 }
 body {
@@ -23,9 +23,9 @@ body {
 }
 
 .signmenu {
-  background-color: white;
+  background-color: gainsboro;
   border-radius: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -63,7 +63,7 @@ body {
   letter-spacing: 0.1px;
 }
 .signmenu-forgotpassword {
-  background-color: white;
+  background-color: gainsboro;
   border-radius: 5px;
   margin-bottom: 50px;
   text-align: right;
@@ -75,17 +75,36 @@ body {
   opacity: 0.6;
   letter-spacing: 0.1px;
 }
+.signmenu-remember {
+  background-color: gainsboro;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+.signmenu-bottom {
+  background-color: red;
+  border-radius: 10in;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 30px;
+}
 
-.user {
-  width: 320px;
-  padding: 20px 15px;
-  overflow: hidden;
-  background-color: white;
-  border-top-width: 0px;
+.signmenu-bottom .signmenu-bottom__title {
+  color: white;
+  background-color: red(106, 117, 255, 1);
+  border-radius: 10in;
+  font-size: 15px;
+  padding: 10px 0px;
+  font-weight: 600;
+}
+.text-or {
+  background-color: gainsboro;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .user .user__buttons {
-  padding: 0px 30px;
+  padding: 0px 0px;
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -95,15 +114,22 @@ body {
   text-decoration: none;
   color: white;
   background-color: rgba(106, 117, 255, 1);
-  width: 115px;
   text-align: center;
   padding: 10px 0px;
-  border-radius: 5px;
-  font-size: 12px;
+  border-radius: 10in;
+  font-size: 15px;
   font-weight: 600;
+  width: 150px;
 }
 
 .user__buttons .user__button:last-child {
   background-color: rgba(106, 117, 255, 0.3);
   color: rgba(106, 117, 255, 1);
+}
+.text-last2 {
+  background-color: gainsboro;
+  color: red;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  text-align: left;
 }
